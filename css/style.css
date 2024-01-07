@@ -2,29 +2,202 @@
 *{  
     margin: 0;
     padding: 0;
-    font-family: 'Merriweather';
-    font-family: 'Inter';
 }
 .container{
     width:85%;
     margin: 0 auto;
     
 }
+.btn_primary{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #F00;
+    transition: all 1s;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border: 0;
+}
+.btn_primary:hover{
+    background: #3a3647;
+}
+.subtitle_h4{
+    color: #F00;
+    font-size: 20px;
+    font-family: Inter;
+}
+.details_p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 160% */
+}
 /* univerasal styles goes header */
 
 /* main banner styles goes here */
 .main_banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    padding: 50px 0 10px;
 }
 .main_banner_wrapper{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../resources/Banner\ Image.png);
-    height: 535px;
+    height: auto;
+    padding: 10% 0;
+    display: flex;
+    align-items: center;
     border-radius: 16px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+.main_banner_text{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+    text-transform: capitalize;
+    width: 62%;
+    margin: 0 auto;
+}
+.main_banner_text h4{
+    font-size: 32px;
+    font-weight: 400;
+}
 /* main banner styles goes here */
+/* .discount_section banner styles */
+.discount_section{
+    height: auto;
+    padding: 7% 0;
+    display: flex;
+    align-items: center;
+}
+.discount_section_wrapper{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+}
+.discount_section_wrapper h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.discount_section_wrapper h4{
+    margin: 30px 0 10px;
+    font-size: 20px;
+}
+.discount_section_wrapper h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.discount_section_wrapper img{
+    width: 510px;
+    margin: 24px 0;
+}
+/* .discount_section banner styles */
+/* party_banner section styles */
+.party_banner{}
+.party_banner_wrapper{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    padding: 40px 120px;
+    background-size: contain;
+    height: 440px;
+}
+.party_banner_text{
+
+}
+.party_banner_text p{
+    
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 15px;
+    width: 85%;   
+    font-weight: 400;
+    
+ /* 166.667% */
+    
+text-transform: capitalize;
+    
+margin: 15px 0 35px;
+}
+.party_banner_text h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 7.04px;
+    text-transform: capitalize;
+}
+/* party_banner section styles */
+/* address_section styles */
+.address_section{
+    padding: 120px 0;
+}
+.address_section_wrapper{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.address_section_text{
+    text-align: center;
+    color: black;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+.address_section_text h2{}
+.address_section_text span{
+    color: #F00;
+}
+.address_section_text button{
+    margin-top: 50px;
+}
+/* address_section styles */
+/* coming soon styles */
+.coming_soon_section{
+
+}
+.coming_soon_section_wrapper{
+    background: none;
+    display: flex;
+    justify-content: space-around;
+}
+.coming_soon_text1{}
+.coming_soon_text1 h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 5px 0 15px;
+}
+.coming_soon_des{
+    flex-basis: 33.3%;
+    padding: 21px;
+}
+.coming_soon_text1{
+}
+.coming_soon_img{text-align: center;}
+.coming_soon_img img{
+    width: 95%;
+    border: 5px solid #f00;
+    border-radius: 50%;
+    padding: 8px;
+}
+.coming_soon_text2{
+}
+.coming_soon_text2 h2{}
+.coming_soon_text2 img{}
+.coming_soon_text2 h2{}
+/* coming soon styles */
