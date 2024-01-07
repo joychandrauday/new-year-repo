@@ -4,14 +4,16 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-a{
-    text-decoration: none;
-}
 .container {
     width: 85%;
     margin: 0 auto;
 }
-
+a{
+    text-decoration: none;
+}
+h3{
+    color: #070211;
+}
 .btn_primary {
     color: #FFF;
     text-align: center;
@@ -74,7 +76,6 @@ a{
     font-size: 40px;
     font-weight: 900;
     line-height: 95px;
-    /* 131.944% */
     text-transform: capitalize;
     width: 62%;
     margin: 0 auto;
@@ -283,7 +284,9 @@ a{
 .holiday_section_banner img:nth-child(3) {
     z-index: -1;
 }
-
+.holiday_section_text h4{
+    color: #070211;
+}
 .holiday_section_text p {
     width: 60%;
     margin: 0 auto;
@@ -364,9 +367,7 @@ a{
     text-align: center;
     font-family: Inter;
     font-size: 15px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     border-radius: 50px 0px 0px 50px;
 }
 
@@ -380,9 +381,7 @@ a{
     text-align: center;
     font-family: Inter;
     font-size: 15px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-transform: capitalize;
     cursor: pointer;
     position: relative;
@@ -411,11 +410,8 @@ footer {
 }
 
 .footer_section_wrapper hr {
-
     background-color: rgba(255, 255, 255, 0.15);
-
     border: none;
-
     height: 1px;
 }
 
