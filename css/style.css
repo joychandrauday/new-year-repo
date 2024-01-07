@@ -6,7 +6,6 @@
 .container{
     width:85%;
     margin: 0 auto;
-    
 }
 .btn_primary{
     color: #FFF;
@@ -211,3 +210,50 @@ padding: 20px 0 0;
     padding-bottom: 15px;
 }
 /* coming soon styles */
+/* holiday sale section styles */
+.holiday_section{
+    
+display: block;
+}
+.holiday_section_wrapper{
+    background: none;
+    text-align: center;
+    padding-bottom: 0;
+}
+.holiday_section_banner{
+    background: url('../resources/Rectangle\ 2.png');
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    padding-top: 0;
+}
+.holiday_section_banner img{
+    width: 350px;
+    height: auto;
+}
+.holiday_section_banner img:nth-child(1){width: 600px;position: relative;top: 100px;left: 50px;}
+.holiday_section_banner img:nth-child(2){
+    width: 180px;
+    position: absolute;
+    right: 383px;
+}
+.holiday_section_banner img:nth-child(3){
+    z-index: -1;
+}
+.holiday_section_text p{
+    width: 60%;
+    margin: 0 auto;
+}
+.holiday_section_text h1{
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 10px 0 30px;
+}
+.holiday_section_text span{
+    color: #F00;
+}
+/* holiday sale section styles */
