@@ -1,7 +1,8 @@
-/* univerasal styles goes header */
+/* universal styles goes header */
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -45,7 +46,7 @@
     /* 160% */
 }
 
-/* univerasal styles goes header */
+/* universal styles goes header */
 
 /* main banner styles goes here */
 .main_banner {
@@ -119,8 +120,6 @@
 
 /* .discount_section banner styles */
 /* party_banner section styles */
-.party_banner {}
-
 .party_banner_wrapper {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
@@ -128,9 +127,6 @@
     background-size: contain;
     height: 440px;
 }
-
-.party_banner_text {}
-
 .party_banner_text p {
 
     color: rgba(255, 255, 255, 0.80);
@@ -178,9 +174,6 @@
     line-height: 60px;
     text-transform: capitalize;
 }
-
-.address_section_text h2 {}
-
 .address_section_text span {
     color: #F00;
 }
@@ -203,8 +196,6 @@
     padding-top: 0;
 }
 
-.coming_soon_text1 {}
-
 .coming_soon_text1 h2,
 .port_head {
     color: #070211;
@@ -220,8 +211,6 @@
     padding: 21px;
 }
 
-.coming_soon_text1 {}
-
 .coming_soon_img {
     text-align: center;
 }
@@ -232,11 +221,6 @@
     border-radius: 50%;
     padding: 8px;
 }
-
-.coming_soon_text2 {}
-
-.coming_soon_text2 h2 {}
-
 .coming_soon_text2 img {
     padding-top: 15px;
 }
@@ -316,11 +300,6 @@
 .portfolio_section {
     padding: 10% 0;
 }
-
-.portfolio_section {}
-
-.portfolio_section {}
-
 .portfolio_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -360,9 +339,6 @@
     display: block;
     padding: 7% 0 0%;
 }
-
-.newsletter_section {}
-
 .newsletter_section_text {
     width: 70%;
     margin: 0 auto;
@@ -371,9 +347,6 @@
 .newsletter_form {
     padding: 55px 0;
 }
-
-.newsletter_form input {}
-
 .newsletter_form input:nth-child(1) {
     background: white;
     border: none;
@@ -443,8 +416,6 @@ height: 1px;
     padding-bottom: 30px;
 }
 
-.footer_address {}
-
 .footer_address_1 {
     text-align: left;
 }
@@ -481,5 +452,9 @@ height: 1px;
     margin-top: 40px;
     text-transform: capitalize;
 }
-
+.back_to_top a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.148);
+}
 /* footer styles */
