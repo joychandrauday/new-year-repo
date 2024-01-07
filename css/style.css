@@ -4,7 +4,9 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-
+a{
+    text-decoration: none;
+}
 .container {
     width: 85%;
     margin: 0 auto;
@@ -463,7 +465,6 @@ footer {
 
 .back_to_top a {
     text-transform: capitalize;
-    text-decoration: none;
     color: rgba(255, 255, 255, 0.148);
 }
 
