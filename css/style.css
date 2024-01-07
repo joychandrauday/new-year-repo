@@ -331,6 +331,7 @@
 /* newsletter styles */
 .newsletter_section {
     text-align: center;
+    padding: 0 0 100px;
 }
 
 .newsletter_section_wrapper {
