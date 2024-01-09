@@ -129,7 +129,7 @@ h3{
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     padding: 40px 120px;
-    background-size: contain;
+    background-size: cover;
     height: 440px;
 }
 
@@ -259,8 +259,6 @@ h3{
     background-position: center bottom;
     background-size: contain;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-between;
     height: 500px;
     padding-top: 0;
 }
@@ -268,13 +266,14 @@ h3{
 .holiday_section_banner img {
     width: 350px;
     height: auto;
+    text-align: right;
 }
 
 .holiday_section_banner img:nth-child(1) {
     width: 600px;
     position: relative;
     top: 100px;
-    left: 50px;
+    left: 0px;
 }
 
 .holiday_section_banner img:nth-child(2) {
@@ -285,6 +284,8 @@ h3{
 
 .holiday_section_banner img:nth-child(3) {
     z-index: -1;
+    padding: 0;
+    margin: 0;
 }
 .holiday_section_text h4{
     color: #070211;
